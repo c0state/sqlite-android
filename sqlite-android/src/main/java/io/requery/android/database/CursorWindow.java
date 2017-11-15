@@ -28,7 +28,7 @@ import io.requery.android.database.sqlite.SQLiteClosable;
 @SuppressWarnings("unused")
 public class CursorWindow extends SQLiteClosable {
 
-    private static final int WINDOW_SIZE_KB = 1024;
+    private static final int WINDOW_SIZE_KB = 2048;
 
     // This static member will be evaluated when first used.
     private static int sCursorWindowSize = -1;
